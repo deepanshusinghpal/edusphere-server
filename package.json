@@ -4,10 +4,10 @@
   "description": "Backend for EduSphere e-learning platform",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "prisma:seed": "node prisma/seed.js",
-    "vercel-build": "npm install && npx prisma migrate deploy && npx prisma generate"
+  "start": "node index.js",
+  "dev": "nodemon index.js",
+  "prisma:seed": "node prisma/seed.js",
+  "build": "npm install && npx prisma migrate deploy && npx prisma generate"
   },
   "keywords": [
     "e-learning",
